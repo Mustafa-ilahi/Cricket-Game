@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Start The Cricket Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body background="images/MCG.jpg">
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCNGnVax8v2HDMAbIk7h8JMLN-SDDiOxBg",
+            authDomain: "cricket-game-5e5c6.firebaseapp.com",
+            databaseURL: "https://cricket-game-5e5c6.firebaseio.com",
+            projectId: "cricket-game-5e5c6",
+            storageBucket: "cricket-game-5e5c6.appspot.com",
+            messagingSenderId: "966187117735"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+
+    <table class="table">
+        <tr>
+            <th>Score</th>
+            <th>wickets</th>
+            <th>Balls</th>
+        </tr>
+
+        <tr>
+            <td id="score"></td>
+            <td id="wickets"></td>
+            <td id="balls"></td>
+        </tr>
+
+    </table>
+
+
+
+
+    <div id="showInning" class="table"></div>
+
+    <img src="images/bowler.jpg" alt="bowling" srcset="" onClick="bowling()" width="100px" height="100px">
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

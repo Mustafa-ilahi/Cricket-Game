@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    top: 50%;
+}
+
+.teams{
+    color: #60ff00;
+}
+
+.images{
+    height: 250px;
+    width: 240px;
+}
+
+#chose{
+    color: #00ffff
+}
+#heading1{
+    color: #228b22
+
+}
+
+#link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #06eadf
+}
+.table{
+    color: #f01414;
+
+}
